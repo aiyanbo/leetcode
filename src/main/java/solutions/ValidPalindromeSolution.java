@@ -7,7 +7,7 @@ import java.util.List;
  * Component:
  * Description:
  * https://oj.leetcode.com/problems/valid-palindrome/
- *
+ * <p>
  * Date: 14/10/27
  *
  * @author Andy Ai
@@ -15,7 +15,7 @@ import java.util.List;
 public class ValidPalindromeSolution {
     public boolean isPalindrome(String s) {
         String target = s.trim();
-        if (target.length() == 0) {
+        if (target.isEmpty()) {
             return true;
         }
         String[] words = extractWords(target);
