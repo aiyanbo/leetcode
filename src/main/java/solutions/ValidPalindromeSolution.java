@@ -31,7 +31,7 @@ public class ValidPalindromeSolution {
         String[] chars = s.toLowerCase().split("|");
         List<String> words = new ArrayList<>(chars.length);
         for (String c : chars) {
-            if (c.matches("\\w")) {
+            if (Character.isLetterOrDigit(c.charAt(0))) {
                 words.add(c);
             }
         }
