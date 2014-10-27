@@ -9,9 +9,9 @@ import junit.framework.TestCase;
  *
  * @author Andy Ai
  */
-public class ValidPalindromeSolutionTest extends TestCase {
+public class ValidPalindromeTest extends TestCase {
     public void test() {
-        ValidPalindromeSolution solution = new ValidPalindromeSolution();
+        ValidPalindrome solution = new ValidPalindrome();
         assertEquals(true, solution.isPalindrome("A man, a plan, a canal: Panama"));
         assertEquals(false, solution.isPalindrome("race a car"));
         assertEquals(false, solution.isPalindrome("1a2"));

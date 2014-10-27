@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Andy Ai
  */
-public class ValidPalindromeSolution {
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         String target = s.trim();
         if (target.isEmpty()) {

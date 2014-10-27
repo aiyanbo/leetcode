@@ -9,9 +9,9 @@ import junit.framework.TestCase;
  *
  * @author Andy Ai
  */
-public class ValidNumberSolutionTest extends TestCase {
+public class ValidNumberTest extends TestCase {
     public void test() {
-        ValidNumberSolution solution = new ValidNumberSolution();
+        ValidNumber solution = new ValidNumber();
         assertEquals(true, solution.isNumber("0"));
         assertEquals(true, solution.isNumber(" 0.1"));
         assertEquals(false, solution.isNumber("abc"));

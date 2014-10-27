@@ -9,7 +9,7 @@ package solutions;
  *
  * @author Andy Ai
  */
-public class ValidNumberSolution {
+public class ValidNumber {
     public boolean isNumber(String s) {
         String target = s.trim();
         return target.length() != 0 && (
