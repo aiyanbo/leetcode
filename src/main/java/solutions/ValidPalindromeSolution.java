@@ -6,16 +6,19 @@ import java.util.List;
 /**
  * Component:
  * Description:
+ * https://oj.leetcode.com/problems/valid-palindrome/
+ *
  * Date: 14/10/27
  *
  * @author Andy Ai
  */
 public class ValidPalindromeSolution {
     public boolean isPalindrome(String s) {
-        if (s.length() == 0) {
-            return false;
+        String target = s.trim();
+        if (target.length() == 0) {
+            return true;
         }
-        String[] words = extractWords(s);
+        String[] words = extractWords(target);
         for (int i = 0; i < words.length / 2; i++) {
             if (!words[i].equals(words[words.length - 1 - i])) {
                 return false;
@@ -28,8 +31,7 @@ public class ValidPalindromeSolution {
         String[] chars = s.toLowerCase().split("|");
         List<String> words = new ArrayList<>(chars.length);
         for (String c : chars) {
-            int code = c.charAt(0);
-            if (code >= 97 && code <= 122) {
+            if (c.matches("\\w")) {
                 words.add(c);
             }
         }

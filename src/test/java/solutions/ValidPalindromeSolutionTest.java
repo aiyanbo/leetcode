@@ -14,5 +14,8 @@ public class ValidPalindromeSolutionTest extends TestCase {
         ValidPalindromeSolution solution = new ValidPalindromeSolution();
         assertEquals(true, solution.isPalindrome("A man, a plan, a canal: Panama"));
         assertEquals(false, solution.isPalindrome("race a car"));
+        assertEquals(false, solution.isPalindrome("1a2"));
+        assertEquals(true, solution.isPalindrome(""));
+        assertEquals(true, solution.isPalindrome(" "));
     }
 }
