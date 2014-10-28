@@ -2,7 +2,7 @@ package solutions;
 
 /**
  * Component:
- * Description:
+ * Description: https://oj.leetcode.com/problems/reverse-integer/
  * Date: 14/10/27
  *
  * @author Andy Ai
