@@ -15,3 +15,4 @@ LeetCode Solutions
 |[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](https://github.com/aiyanbo/leetcode/blob/master/src/main/java/solutions/RemoveDuplicatesFromSortedArray.java)|2014-11-04|Easy|
 |[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Java](https://github.com/aiyanbo/leetcode/blob/master/src/main/java/solutions/RemoveDuplicatesFromSortedArray2.java)|2014-11-04|Medium|
 |[Sort List](https://oj.leetcode.com/problems/sort-list/)| [Java](https://github.com/aiyanbo/leetcode/blob/master/src/main/java/solutions/SortList.java)|2014-11-05|Medium|
+|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Java](https://github.com/aiyanbo/leetcode/blob/master/src/main/java/solutions/RemoveDuplicatesFromSortedList.java)|2014-11-05|Easy|
