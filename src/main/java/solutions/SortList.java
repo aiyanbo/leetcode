@@ -6,16 +6,14 @@ import java.util.List;
 
 /**
  * Component:
- * Description: https://oj.leetcode.com/problems/merge-two-sorted-lists/
- * Date: 14/10/28
+ * Description: https://oj.leetcode.com/problems/sort-list/
+ * Date: 14/11/5
  *
  * @author Andy Ai
  */
-public class MergeTwoSortedLists {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        List<Integer> numbers = new ArrayList<>();
-        numbers.addAll(flatPattern(l1));
-        numbers.addAll(flatPattern(l2));
+public class SortList {
+    public ListNode sortList(ListNode head) {
+        List<Integer> numbers = flatPattern(head);
         Collections.sort(numbers);
         return apply(numbers);
     }
